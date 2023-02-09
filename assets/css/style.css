@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Verdana, Tahoma, Geneva, sans-serif;
+}
+ul { 
+    list-style: none;
+    padding-left: 5px;
+}
+a {
+    color:#006494;
+    text-decoration: none;
+}
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.cabecalho .logo {
+    width: 65px;
+}
+.cabecalho .menu{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.cabecalho nav li a {
+    font-weight: bold;
+    color: #000000;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+.cabecalho nav li a:hover {
+    background-color: #006494;
+    color: white;
+}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+/* figure {
+    text-align: left;
+    margin-left: 30px;
+} */
