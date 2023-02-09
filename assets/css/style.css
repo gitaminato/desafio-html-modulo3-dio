@@ -14,12 +14,15 @@ a {
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 1px;
+    max-height: 60px;
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 10px;
 }
 .cabecalho .logo {
-    width: 65px;
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 .cabecalho .menu{
     display: flex;
@@ -29,8 +32,9 @@ a {
 .cabecalho nav li a {
     font-weight: bold;
     color: #000000;
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px 20px;
+    margin-bottom: 50px;
 }
 .cabecalho nav li a:hover {
     background-color: #006494;
@@ -61,10 +65,38 @@ a {
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
 }
+.anchors nav ul li a:hover{
+    font-weight: bold;
+    color: #006494;
+}
 .sidebar {
     border-right: solid 1px #cdcdcd;
+    margin-left: 0;
 }
-/* figure {
+.sidebar nav ul li a:hover{
+    font-weight: bold;
+    color: #006494;
+}
+figure {
     text-align: left;
-    margin-left: 30px;
-} */
+    margin: 0;
+}
+img {
+    width: 220px;
+}
+caption {
+    font-size: large;
+    color: black;
+}
+.tabelaGameOfThrones th{
+    background-color:#000000;
+    color: white;
+    border: solid #ffffff 1px;
+    padding: 10px;
+    margin: 0;
+}
+.tabelaGameOfThrones td {
+    border: solid #006494 1px;
+    text-align: center;
+    padding: 5px;
+}
