@@ -88,14 +88,14 @@ caption {
     font-size: large;
     color: black;
 }
-.tabelaGameOfThrones th{
+.tabela th{
     background-color:#000000;
     color: white;
     border: solid #ffffff 1px;
     padding: 10px;
     margin: 0;
 }
-.tabelaGameOfThrones td {
+.tabela td {
     border: solid #006494 1px;
     text-align: center;
     padding: 5px;
